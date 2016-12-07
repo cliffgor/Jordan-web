@@ -1,19 +1,48 @@
-h1{
-  color: brown;
+.header {
   text-align: center;
-  
-
+ }
+img {
+  left: 30%;
+  position: absolute;
 }
-.img{
-      width: 500px;
-      padding: -2px;
-      margin: auto;
-      display: block;
-
+.icon {
+  left: 45%;
+  position: absolute;
+  top: 25%;
 }
-.center{
-  position:relative;;
-   left: 600px;
-   border: 3px;
-   bottom: 500px;
+
+.fav {
+    top: 45%;
+    position: absolute;
+    left: 35%;
+}
+
+.fav2 {
+  top: 45%;
+  position: absolute;
+  left: 65%;
+}
+
+.heading {
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 43%;
+  color: white;
+}
+
+.heading2 {
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 47%;
+  color: white;
+}
+
+.follow {
+  position: absolute;
+  z-index: 1;
+  top: 95%;
+  left: 47%;
+  float: left;
 }
