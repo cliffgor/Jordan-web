@@ -1,5 +1,7 @@
 .header {
   text-align: center;
+  border: 20px;
+  border-color: brown;
  }
 img {
   left: 30%;
@@ -45,4 +47,11 @@ img {
   top: 95%;
   left: 47%;
   float: left;
+}
+
+.follow2 {
+  position: absolute;
+  z-index: 1;
+  top: 94%;
+  left: 51%;
 }
